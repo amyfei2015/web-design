@@ -1,0 +1,139 @@
+/* general set-up*/
+body{
+    background-color: #D3D3D3;
+    font-size: 1.2em;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    font-family: Comic Sans MS, cursive;
+    font-size: 2.5em;
+}
+
+
+
+/*For the menu bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position:absolute;
+    height: 120%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #555;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #AAA;
+    color: white;
+}
+
+
+/*For the style of items*/
+#books{
+    border-collapse:separate;
+    border-spacing:40px 0px;
+    margin-left:17%;
+    padding:0px 0px;
+    height:500px;
+}
+
+#b13,#b14{
+    border-collapse:separate;
+    border-spacing:30px 40px;
+    font-size:1em;
+}
+
+/*For the buttons on top*/
+#headerBar{
+    height: 40px;
+    background: grey
+}
+
+/*For buttons generally*/
+.button{
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    
+    cursor: pointer;
+    
+    
+}
+
+/*Buttons on top right*/
+.button1{
+    background-color: #101110;
+    float:right;
+    margin: 2px 25px 2px 0px;
+    color: white;
+    padding: 7px 14px;
+    font-size: 16px;
+    text-decoration: underline; 
+}
+
+/*Add to cart*/
+.button2{
+    background-color: #101110;
+    color: white;
+    padding: 14px 34px;
+    font-size: 24px;
+}
+
+
+/*some login buttons*/
+#loginbuttons{
+
+  font:24px;
+  position: relative;
+  left: 35%;
+}
+
+.button3{
+    background-color: #101110;
+    float:left;
+    margin: 2px 25px 2px 0px;
+    color: white;
+    padding: 7px 14px;
+    font-size: 16px;
+}
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+

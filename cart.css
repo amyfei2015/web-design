@@ -1,0 +1,52 @@
+/* general set-up*/
+body{
+    background-color: #D3D3D3;
+    font-size: 1.2em;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    font-family: Comic Sans MS, cursive;
+    font-size: 2.5em;
+}
+
+/* for information about cart*/
+#cart{
+  color: black;
+    text-align: center;
+    font-family: Comic Sans MS, cursive;
+    font-size: 1.5em;
+  
+}
+
+/*button set up*/
+.button{
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+/*buttons in the middle*/
+.button2{
+    background-color: #101110;
+    color: white;
+    padding: 14px 34px;
+    font-size: 24px;
+}
+
+/*top buttons*/
+#loginbuttons{
+
+  font:24px;
+  position: relative;
+  left: 35%;
+}
+
+
+
+
